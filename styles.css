@@ -161,6 +161,7 @@ p{color:var(--slate);font-family:var(--body);font-weight:400;line-height:1.7;let
 .nav-social:has(.fa-whatsapp):hover{color:#25D366;text-shadow:0 0 12px rgba(37,211,102,.6);}
 .nav-social:has(.fa-facebook-f):hover{color:#1877F2;text-shadow:0 0 12px rgba(24,119,242,.6);}
 .nav-social:has(.fa-instagram):hover{color:#E4405F;text-shadow:0 0 12px rgba(225,48,108,.6);}
+.nav-social:has(.fa-tiktok):hover{color:#FE2C55;text-shadow:0 0 12px rgba(254,44,85,.6);}
 
 /* ----- MOBILE: hamburger button (hidden on PC) ----- */
 .menu-toggle{
@@ -389,6 +390,8 @@ p{color:var(--slate);font-family:var(--body);font-weight:400;line-height:1.7;let
 .mobile-menu-socials-icons a:has(.fa-facebook-f):hover{border-color:#1877F2;box-shadow:0 6px 18px rgba(0,0,0,.5),0 0 22px rgba(24,119,242,.55);color:#1877F2;}
 .social-icons a:has(.fa-instagram):hover,
 .mobile-menu-socials-icons a:has(.fa-instagram):hover{border-color:#E4405F;box-shadow:0 6px 18px rgba(0,0,0,.5),0 0 22px rgba(225,48,108,.55);color:#E4405F;}
+.social-icons a:has(.fa-tiktok):hover,
+.mobile-menu-socials-icons a:has(.fa-tiktok):hover{border-color:#FE2C55;box-shadow:0 6px 18px rgba(0,0,0,.5),0 0 22px rgba(254,44,85,.55);color:#FE2C55;}
 
 /* ----- MOBILE ONLY (<992px): hide desktop, show hamburger ----- */
 @media (max-width:991px){
